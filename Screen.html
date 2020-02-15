@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 
+"Screen height is " + screen.height;
+
+var x = "Available Height: " + screen.availHeight + "px";
+  document.getElementById("demo1").innerHTML = x;
+
+ var x = "Available Width: " + screen.availWidth + "px";
+  document.getElementById("demo2").innerHTML = x;
+
+ var x = "Color Depth: " + screen.colorDepth + " bits per pixel";
+  document.getElementById("demo3").innerHTML = x;
+
+  var x = "Color resolution: " + screen.pixelDepth + " bits per pixel";
+  document.getElementById("demo4").innerHTML = x;
+
+</script>
+
+</body>
+</html>
